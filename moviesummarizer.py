@@ -24,7 +24,7 @@ response = client.chat.completions.create(
   messages=[
     {"role": "system", "content": "You are a helpful assistant."},
     {"role": "user", "content": prompt.format(movie = examples[0]["input"])},
-    {"role":"assistant","content":prompt.format(movie=examples[1]["input"])},
+    {"role":"assistant","content":prompt.format(movie=examples[1]["output"])},
     {"role": "user", "content": prompt.format(movie=examples[1]["input"])},
     {"role": "assistant", "content": examples[1]["output"]},
     {"role": "user", "content": prompt.format(movie=movie)},
