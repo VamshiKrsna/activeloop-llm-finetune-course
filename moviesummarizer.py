@@ -15,7 +15,7 @@ examples = [
 ]
 
 
-movie = "Requiem for a dream"
+movie = "Requiem for a dream" # 🏠💊📦😵💸👀💔😔😩
 
 client = Groq()
 
